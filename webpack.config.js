@@ -8,7 +8,8 @@ module.exports =
   entry: './src/index.js',
   output:
   {
-    filename: 'main.js'
+    filename: 'main.js',
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -27,6 +28,9 @@ module.exports =
         use: ['style-loader', 'css-loader']
       }
     ]
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebpackPlugin({

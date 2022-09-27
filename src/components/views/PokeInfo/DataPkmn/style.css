@@ -1,0 +1,31 @@
+ul
+{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  text-transform: capitalize;
+}
+
+.types, .infoPkmn, .statInfo
+{
+  margin: 0.1em;
+  align-self: flex-start;
+}
+
+hr
+{
+  margin: 0.5em;
+}
+
+label > span
+{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.statInfo, progress
+{
+
+  text-transform: capitalize;
+  width: 100%;
+}

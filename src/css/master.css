@@ -32,23 +32,3 @@ nav ul li a:hover
 {
   color: #ccc
 }
-
-footer
-{
-  padding: 1em;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  border-top: 1px solid;
-}
-
-footer > p
-{
-  text-align: center;
-}
-
-footer > p > span
-{
-  font-weight: bold;
-}
