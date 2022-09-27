@@ -1,0 +1,54 @@
+*
+{
+    font-family: Arial;
+    color: #5f616c;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+
+}
+
+nav > ul
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 6em;
+    border-bottom: 1px solid;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav ul li a, a:hover
+{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover
+{
+  color: #ccc
+}
+
+footer
+{
+  padding: 1em;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  border-top: 1px solid;
+}
+
+footer > p
+{
+  text-align: center;
+}
+
+footer > p > span
+{
+  font-weight: bold;
+}
